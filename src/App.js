@@ -188,9 +188,9 @@ function App() {
     <>
       <div className="App">
         {userChecked && (
-          <Provider template={AlertTemplate} {...options}>
+        
             <RouterProvider router={router} />
-          </Provider>
+      
         )}
         {/* Link must be inside the Provider */}
       </div>
